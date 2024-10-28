@@ -1,12 +1,11 @@
 ROM:
-• Add a toggle to allow chroma & luminance to affect secondary colors
-• Adapt to the new A15 fingerprint implementation and start using it
-• Restore the accidentally removed clock position toggle
-• Fix status bar color in settings home page
-• Fix volume panel timeout requiring a restart
-• Fix hide private space toggle not fully hidden
-• Revert black background toggle
-• Few other changes
+• Vastly improve biometric prompt layout
+• Add back monochrome theme
+• Launcher3: Re-launch the keyboard when search becomes empty
+• Launcher3: Use f-droid as an installer for private space on vanilla
+• Fix speech recognition not having any downloadable languages
+• Fix many of our device configs not being properly set
+• Add Ubuntu font
 
 Device:
 No changes
