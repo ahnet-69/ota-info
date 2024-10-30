@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1730277180,
+      "filename": "YAAP-15-Vanilla-cancunf-20241030.zip",
+      "payload": [
+        {
+          "offset": 3812,
+          "FILE_HASH": "hdaFmkiS9sf+bdVHnuGv9bcZ10xnbDoSwHySyHkS9lw=",
+          "FILE_SIZE": "1665003344",
+          "METADATA_HASH": "fGqZAJa9dMJ7gwKa9AKSmq7lq2oYkkkRsW/INUFRXIA=",
+          "METADATA_SIZE": "62745"
+        }
+      ]
+    }
+  ]
+}
