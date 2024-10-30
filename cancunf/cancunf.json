@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1730274590,
+      "filename": "YAAP-15-Voyager-cancunf-20241030.zip",
+      "payload": [
+        {
+          "offset": 3791,
+          "FILE_HASH": "93FO0roSDy2Cq8r3nI0OUv8CTkVXoEZ6VkcdQOBvAVY=",
+          "FILE_SIZE": "2181941322",
+          "METADATA_HASH": "fyPY3t97eE50C6LlyVt0igLvWM5MxBLIgeTtZpDb0GQ=",
+          "METADATA_SIZE": "80947"
+        }
+      ]
+    }
+  ]
+}
