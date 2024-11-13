@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1731472365,
+      "filename": "YAAP-15-HOMEMADE-pdx203-20241113.zip",
+      "payload": [
+        {
+          "offset": 3683,
+          "FILE_HASH": "pw0wPIRMOoIEoWk+OnLZ2u1lv2YrzWrksCc8PFGv8Cw=",
+          "FILE_SIZE": "1635004291",
+          "METADATA_HASH": "uLZ0J8UB/ZunK1QZpKAdx1OyoIMimpDiAv6UBNZIxEE=",
+          "METADATA_SIZE": "108888"
+        }
+      ]
+    }
+  ]
+}
