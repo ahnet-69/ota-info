@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1733433533,
-      "filename": "YAAP-15-Voyager-waffle-20241205.zip",
+      "datetime": 1733684890,
+      "filename": "YAAP-15-Voyager-waffle-20241208.zip",
       "payload": [
         {
           "offset": 3999,
-          "FILE_HASH": "nA8FUJPklLJDvNCFN2IAJsx+2vA2Wv1WPRV2TL+vbgk=",
-          "FILE_SIZE": "3612466410",
-          "METADATA_HASH": "mqPfwN8MuXTDk+nQe8Xtlju53i98ZJpzeYTwfEIQRkY=",
-          "METADATA_SIZE": "160701"
+          "FILE_HASH": "koSLX0FOEfAZHmK9GC2dnCl8hi3+jYFOWEPIoOPj05M=",
+          "FILE_SIZE": "3610402472",
+          "METADATA_HASH": "pgkol6YetSJZvPm1NqotScfSQK4uyDxx74x3Lvk/xho=",
+          "METADATA_SIZE": "160588"
         }
       ]
     }
