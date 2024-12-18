@@ -1,4 +1,5 @@
 ROM:
+• HOTFIX BUILD
 • Merged QPR1 (AKA Dec SPL / Feature drop)
   - Known regression: Have to re-enroll fingerprints again
   - To fix inverted dark/light themed icons color simply trigger a monet accent color change once (AOSP bug)
