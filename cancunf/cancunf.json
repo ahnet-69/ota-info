@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1730274590,
-      "filename": "YAAP-15-Voyager-cancunf-20241030.zip",
+      "datetime": 1734615675,
+      "filename": "YAAP-15-Voyager-cancunf-20241219.zip",
       "payload": [
         {
-          "offset": 3791,
-          "FILE_HASH": "93FO0roSDy2Cq8r3nI0OUv8CTkVXoEZ6VkcdQOBvAVY=",
-          "FILE_SIZE": "2181941322",
-          "METADATA_HASH": "fyPY3t97eE50C6LlyVt0igLvWM5MxBLIgeTtZpDb0GQ=",
-          "METADATA_SIZE": "80947"
+          "offset": 4230,
+          "FILE_HASH": "dkQ8MKQvar6u1rgPwTFAo5PxVpiK5S5R22YdxolG+bk=",
+          "FILE_SIZE": "2192285399",
+          "METADATA_HASH": "YqXhBopr2J/5HTRLwab/EkQt2FxwmTncoT22xCiFl2k=",
+          "METADATA_SIZE": "81233"
         }
       ]
     }
