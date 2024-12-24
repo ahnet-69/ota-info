@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1730377360,
-      "filename": "YAAP-15-Voyager-sunny-20241031.zip",
+      "datetime": 1735067302,
+      "filename": "YAAP-15-Voyager-sunny-20241224.zip",
       "payload": [
         {
-          "offset": 3640,
-          "FILE_HASH": "uyLfVoKzjQrTNS4bBXS3LCrwJ0lozBj7Hi3XpBGYh98=",
-          "FILE_SIZE": "2109923007",
-          "METADATA_HASH": "kuClQPAkq2k5XTAgfajlMwQfETlv38inyD9O30M/Pb0=",
-          "METADATA_SIZE": "89652"
+          "offset": 4182,
+          "FILE_HASH": "R//+P182tA+F7+jCxxRkdf0Z5OnYfavq1PMTewgttsU=",
+          "FILE_SIZE": "2112689351",
+          "METADATA_HASH": "297Zu6z6KUqX5BkopxRyEUR7TApNYJsLWirc0Ko8qDQ=",
+          "METADATA_SIZE": "89822"
         }
       ]
     }
