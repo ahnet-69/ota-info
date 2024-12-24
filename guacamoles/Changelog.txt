@@ -1,13 +1,13 @@
 ROM:
-• Merged QPR1 (AKA Dec SPL / Feature drop)
-  - Known regression: Have to re-enroll fingerprints again
-  - To fix inverted themed icons color simply trigger a monet accent color change (AOSP bug)
-• Add LMO Freeform
-• OpenDelta: Fix some rare edge cases
-• Settings: Vastly improve search in gesture settings
-• Updated spoofing fp to pass PI
+• Add circle to search + a toggle
+• Add long press timer statusbar chips to directly end screen record/share
+• Use our pocket mode for doze gestures as well
+• screen recorder: Remove stop dot
+• Settings: Hide EID in about phone
+• Fix launcher/recents freezes when changing overlays such as theme
+• Fix landscape battery icon entirely black on charging chip
+• Update China Connectivity Check Server to MIUI
+• Update certs to pass PI again
 
 Device:
-• Move device settings inside system settings
-• Kernel v3.196, notable changes:
-  - Add WPA3 support
+• No changes
