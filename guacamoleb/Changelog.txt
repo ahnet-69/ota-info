@@ -1,13 +1,17 @@
 ROM:
-• Add circle to search + a toggle
-• Add long press timer statusbar chips to directly end screen record/share
-• Use our pocket mode for doze gestures as well
-• screen recorder: Remove stop dot
-• Settings: Hide EID in about phone
-• Fix launcher/recents freezes when changing overlays such as theme
-• Fix landscape battery icon entirely black on charging chip
-• Update China Connectivity Check Server to MIUI
-• Update certs to pass PI again
+• Merged AOSP tag r10 (AKA Jan SPL)
+• Allow limiting minimal % for auto brightness
+• Allow dimming the wallpaper for dark theme and/or night light
+• Re-enable and fix hiding the private space
+• Skip auth for USB mode ctrl when unlocked in the last 60s
+• Show lens and cts toggles for vanilla users with google app installed
+• Make minimal brightness slider more accurate, especially on low gamma devices
+• Fix Ubuntu font missing weights
+• Update certs to pass PI, AGAIN
+• Other minor improvements
 
 Device:
-• No changes
+• Fix alternative lenses don't show in Aperture
+• Fix unavailable reading mode
+• Fix alert dialog height
+• Hide the refresh rate QS tile
