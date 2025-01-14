@@ -1,17 +1,9 @@
 ROM:
-• Merged AOSP tag r10 (AKA Jan SPL)
-• Allow limiting minimal % for auto brightness
-• Allow dimming the wallpaper for dark theme and/or night light
-• Re-enable and fix hiding the private space
-• Skip auth for USB mode ctrl when unlocked in the last 60s
-• Show lens and cts toggles for vanilla users with google app installed
-• Make minimal brightness slider more accurate, especially on low gamma devices
-• Fix Ubuntu font missing weights
-• Update certs to pass PI, AGAIN
+• Fixed system server crash when using auto dim wall pre boot
+• Fixed long press on statusbar cast chip when no timer is shown
+• Possibly fixed a one-time crash right after post update "optimizing apps"
+• Possibly fixed a random system server crash
 • Other minor improvements
 
 Device:
-• Fix alternative lenses don't show in Aperture
-• Fix unavailable reading mode
-• Fix alert dialog height
-• Hide the refresh rate QS tile
+• No changes
