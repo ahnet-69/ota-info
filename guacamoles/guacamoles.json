@@ -1,14 +1,14 @@
 {
   "response": [
     {
-      "datetime": 1736591409,
-      "filename": "YAAP-15-Voyager-guacamoles-20250111.zip",
+      "datetime": 1736870287,
+      "filename": "YAAP-15-Voyager-guacamoles-20250114.zip",
       "payload": [
         {
           "offset": 3746,
-          "FILE_HASH": "f3b7RwhJ1SrM9kan6/hqqG3L1c2lFABViXqTEKdZf8Q=",
-          "FILE_SIZE": "1932731287",
-          "METADATA_HASH": "Sam17ciI0C1ZX4nt3KQEFplqvB/XogcY3osBKdH/R5k=",
+          "FILE_HASH": "p6QuQgzF2bhIVM6AhOQHYrHq2W4WEJX3jxbNsc0bTe4=",
+          "FILE_SIZE": "1932835880",
+          "METADATA_HASH": "Y2wizw3IltH/X18hNWf6yVg7j2uSLbmGumHn+E7kFxU=",
           "METADATA_SIZE": "133717"
         }
       ]
