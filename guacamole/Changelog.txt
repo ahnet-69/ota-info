@@ -1,9 +1,17 @@
 ROM:
-• Fixed system server crash when using auto dim wall pre boot
-• Fixed long press on statusbar cast chip when no timer is shown
-• Possibly fixed a one-time crash right after post update "optimizing apps"
-• Possibly fixed a random system server crash
-• Other minor improvements
+• Launcher3: Allow configurable search bar widgets
+    - Fixes google alt widget showing in search bar
+    - You can configure the widget in google app settings
+• Launcher3: Hide private space apps in search when it's hidden
+• Fix some Chinese app crashes and ANRs
+• Ship Twelve music app
+• Use monet colors for the privacy chip
+• Disable FRP (Factory reset protection)
+• Use a generic build machine and username for some apps that detect custom OS this way
+• Other minor changes
 
 Device:
-• No changes
+• Fix WFD
+• Fix USB gadgets (ex OTG) before charging
+• Fix slider dialog not following set theme properly
+• Kernel: Efficiency improvements
