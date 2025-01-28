@@ -1,0 +1,17 @@
+Rom:
+- Merged AOSP tag r14 (AKA February security patch)
+- Improve signal strength reliability for some carriers
+- Fix selecting images from Gallery
+- Update certified props to pass PI (again)
+- Other minor changes
+
+Device:
+- Implement H.S. Power Control QS tile
+- Implement Battery Care from stock
+- Implement OTA updates (Using sourceforge as storage so no resume support)
+- Make Flashing through OpenDelta faster
+- Potential fixup of weird audio quality drop on calls
+- Use common Wifi Display libs
+- Upstream KernelSU Next to v1.0.4
+- Sync with latest LineageOS changes
+- Enable predictive back animations for device side menu's (Sound Quality, Creator mode etc.)
