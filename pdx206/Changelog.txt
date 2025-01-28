@@ -1,0 +1,1 @@
+- Re-enable AOSP BT Audio HAL v2 (fixes Bluetooth codecs like LDAC not working)
