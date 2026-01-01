@@ -1,17 +1,24 @@
 Rom:
-- Merged AOSP tag r14 (AKA February security patch)
-- Improve signal strength reliability for some carriers
-- Fix selecting images from Gallery
-- Update certified props to pass PI (again)
-- Other minor changes
+- Merged Android 16 QPR1
+- Merged Android 16 QPR2 (and Dec/2025 security patches)
+- Add a toggle for screenshot sounds
+- Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
+- Add a configurable blur radius slider for notification shade
+- Launcher: add configurable blur radius slider
+- OpenDelta: Support new A16's progress centric notifications
+- Downgrade Aperture for bug fixe
+
+Regressions compared to last release:
+- Smartspace has been dropped as a lockscreen weather provider
+  - You may use OmniJaws still
+- Left volume panel setting temporarily dropped
+- If the setting for it is removed, it's on purpose
 
 Device:
-- Implement H.S. Power Control QS tile
-- Implement Battery Care from stock
-- Implement OTA updates (Using sourceforge as storage so no resume support)
-- Make Flashing through OpenDelta faster
-- Potential fixup of weird audio quality drop on calls
-- Use common Wifi Display libs
-- Upstream KernelSU Next to v1.0.4
-- Sync with latest LineageOS changes
-- Enable predictive back animations for device side menu's (Sound Quality, Creator mode etc.)
+- Switch product, system, system_ext back to ext4 (reduce build sizes so it can be uploaded on GitHub)
+- Switch XperiaModules to Material 3 Expressive
+- Switch to C2 codecs (Drop OMX hw decoders)
+- Ship Camera apps system-side again (Excluding SemcCameraUI)
+- Add Creative Effect in camera addons
+- Kernel:
+  - Merge latest LineageOS changes
