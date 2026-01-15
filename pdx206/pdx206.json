@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1767299339,
-      "filename": "YAAP-16-HOMEMADE-pdx206-20260102-GMS.zip",
+      "datetime": 1768434814,
+      "filename": "YAAP-16-HOMEMADE-pdx206-20260115-GMS.zip",
       "payload": [
         {
           "offset": 4100,
-          "FILE_HASH": "dsvJUfW5yzs8NUwDsjFjNbcNmj7PY1pAroney1OWi/c=",
-          "FILE_SIZE": "1910391352",
-          "METADATA_HASH": "5M0M1GF70PX+CWY1+bZKTNYpc7F8UHOjtzCaQv8pkhQ=",
-          "METADATA_SIZE": "138558"
+          "FILE_HASH": "UUOnsoIhpuw6bf6koh0DVGnsxN4oinOv+1ahXNDrM4c=",
+          "FILE_SIZE": "1911551776",
+          "METADATA_HASH": "oIseoT7NvfvCmRFPMSCzj1ypKsgfHJ/xqfi0rXIwo70=",
+          "METADATA_SIZE": "138612"
         }
       ]
     }

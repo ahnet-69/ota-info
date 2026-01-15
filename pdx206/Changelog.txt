@@ -1,25 +1,19 @@
 Rom:
-- Merged Android 16 QPR1
-- Merged Android 16 QPR2 (and Dec/2025 security patches)
-- Add a toggle for screenshot sounds
-- Settings: Reflect that a gesture won't trigger ambient when ambient is disabled
-- Add a configurable blur radius slider for notification shade
-- Launcher: add configurable blur radius slider
-- OpenDelta: Support new A16's progress centric notifications
-- Downgrade Aperture for bug fixe
-
-Regressions compared to last release:
-- Smartspace has been dropped as a lockscreen weather provider
-  - You may use OmniJaws still
-- Left volume panel setting temporarily dropped
-- If the setting for it is removed, it's on purpose
+- Add back QPR2 Smartspace as a lockscreen weather provider
+- Add blurs option to fine-tuned battery saver
+- Allow setting a wider range for battery saver schedule %
+- Enable Expressive UI in GMS Setup Wizard
+- Fix non persisting toggles in fine-tuned battery saver
+- Fix broken toggles in fine-tuned battery saver
+- Fix charging sounds toggle title
+- Launcher: fix hide label toggle hiding popup labels
+- Launcher: drop configurable blur radius due to performance issues
+- Resize some statusbar icons to better fit the rest
+- Fix setup wizard theme
+- Fix QS network traffic monitor on white theme
+- Fix all the remaining SmartSpace regressions
 
 Device:
-- Rename Device Model to XQ-AS72 (Some apps like mcpro24 look for this)
-- Switch product, system, system_ext back to ext4 (reduce build sizes so it can be uploaded on GitHub)
-- Switch XperiaModules to Material 3 Expressive
-- Switch to C2 codecs (Drop OMX hw decoders)
-- Ship Camera apps system-side again (Excluding SemcCameraUI)
-- Add Creative Effect in camera addons
 - Kernel:
-  - Merge latest LineageOS changes
+   - Merge latest LineageOS changes
+- Misc changes
