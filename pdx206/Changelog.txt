@@ -1,21 +1,12 @@
 Rom:
-- Vanilla: fix webview and Vanadium
-- Vanilla: fix SetupWizard network selection crash
-- OmniJaws: add an inline view toggle for a modern smartspace-inspired layout
-- OTA App: Improve tile reliability and fix a crash
-- Add a text only status bar battery
-- OTA App: Improve reboot state reliability
-- Settings: Allow hiding account name from top level page
-- Settings: Move account preference to the bottom
-- Settings: Give custom ramping ringer settings their own page
-- Wireless Alerts: Add a toggle to enable led flash
-- Wireless Alerts: Add a toggle to handle in calls
-- Wireless Alerts: Add a toggle to show a notification
-- Wireless Alerts: Add a toggle for bottom dialog
-- Wireless Alerts: Improve UX of some toggles
-- Wireless Alerts: Enable more hidden settings and tweak some defaults
+- Applied April security patch patches
+- Updated APNs from LOS
+- Fix UltraHDR display issue since a15 qpr2, re enable UHDR for all
 
 Device:
-- Enable VoLTE for KT carrier `45008`
-- Fix keymappings for DualSense controller (Thanks to C4N4242 on GitHub for the contribution)
-- Misc changes.
+- Revert "Enable VoLTE for KT carrier `45008`" (VoLTE etc. features are already enabled by default for all carriers).
+- Revert the usage of AIDL Radio Wrapper
+- Downgrade Cinema Pro to `v.1.9.A.0.7` (Newer versions cause crashes at higher fps)
+- Fixup video camera apps crashing on 4k >= 30fps
+Kernel:
+- Scheduler improvements
