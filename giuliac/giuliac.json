@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1778596311,
+      "filename": "YAAP-16-HOMEMADE-giuliac-20260512.zip",
+      "payload": [
+        {
+          "offset": 4890,
+          "FILE_HASH": "cMn1gRheKZTOHvtrZkJKhC6clys6xJOD/YKSH4WrAQ4=",
+          "FILE_SIZE": "3986205614",
+          "METADATA_HASH": "v8AfZmxIn+70TzTJ+5ZoHI1qJ98NV1kRSGcO4Tnxhac=",
+          "METADATA_SIZE": "192299"
+        }
+      ]
+    }
+  ]
+}

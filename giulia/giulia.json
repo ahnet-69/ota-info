@@ -1,0 +1,17 @@
+{
+  "response": [
+    {
+      "datetime": 1778595213,
+      "filename": "YAAP-16-HOMEMADE-giulia-20260512.zip",
+      "payload": [
+        {
+          "offset": 4855,
+          "FILE_HASH": "7Iyx8UWUavdkEaneNeGHVuFIdk14PBph6H46GT28OJ8=",
+          "FILE_SIZE": "3957574006",
+          "METADATA_HASH": "vYb33cPQ8rRTc7PR/suEtr9VrGlhXMUk38E5Bbw31iE=",
+          "METADATA_SIZE": "191326"
+        }
+      ]
+    }
+  ]
+}
