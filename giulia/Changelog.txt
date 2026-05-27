@@ -1,15 +1,25 @@
 Rom:
-- None
+- Fix decrease of refresh rate and target frame rate on ARR devices during overscroll stretch animations and other redraws (yet another fix to Google's ARR implementation)
+- Fix PermissionController crash
+- Launcher3 & Quickstep: Optimizations to Google code in areas found introducing animation jank
+- Disable USAP pool to workaround high usap drain for some users
+- Update certified props
+- Support overriding display headroom for HDR from device
 
 Device:
-- Implement Unofficial OTA (Thanks to @ayushqui for providing mirror)
-- Correctly theme the alert slider dialog
-- Rework top-app min clamps
-- Add back an expensive rendering gpu hint
-- Improve adaptive refresh rate
-- Kernel: Merge 6.1.172
-- Kernel: FIE improvements
-- Kernel: rework kprofiles:
-  - Do not disable lazy rcu on performance kprofile (benchmark cost is no more)
-  - Rework app/activity launch boosting on balanced/perf kprofiles
-  - Extend dcvs bus boost driver to internal calls (for app launch/transition boosting)
+- Update blobs from ColorOS / OxygenOS 16.0.7.200
+- Dropped Dolby Vision (READ NOTES ON GitHub, IF YOU WANT TO USE IT ANYWAY)
+- Dropped Widevine L1 (Gives broken L1 for users out of the box without reprogramming their tee. READ NOTES On GitHub IF YOU WANT TO USE IT ANYWAY)
+- Fix and bring back OpenEUICC on vanilla builds
+- Replace prebuilt Dolby APK's with Lunaris Dolby
+- Improve jitter with proper SF durations tuned for precommit boosted 120hz targets
+- BUGFIX: Revert a change that was to deal with symptoms of accidentally dropping sf durations 3 weeks ago
+- Further improve efficiency on defaults
+- Give Ultra HDR more headroom, to solve dimming at higher brightness on 8bit hdr
+- Kernel: significantly improve/regain efficiency
+- Kernel: Merge 6.1.174
+- Kernel: FIE improvements and interactivity improvements
+- Kernel: Improve efficiency on all kprofiles (step back and further tune earlier changes)
+- Kernel: Implement direct reclaim and high order allocation optimizations for critical tasks
+- Kernel: Merge ACK
+- Kernel: Misc
