@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1779899556,
-      "filename": "YAAP-16-HOMEMADE-giulia-20260527.zip",
+      "datetime": 1781207223,
+      "filename": "YAAP-16-HOMEMADE-giulia-20260612.zip",
       "payload": [
         {
           "offset": 4855,
-          "FILE_HASH": "HhajDY8wM4Gp7bvxnZEJpMrfS1VlsVD38FdPqUOQjrM=",
-          "FILE_SIZE": "3422792965",
-          "METADATA_HASH": "NyHqg3GyAcOZb046tIxs7ZxPoUR/+wB2MwRMpA/OMgQ=",
-          "METADATA_SIZE": "168625"
+          "FILE_HASH": "f7BbhFs6b/FbUuC8otSkXQgPOlSx+ETNdcH+QkSK3IY=",
+          "FILE_SIZE": "3430839192",
+          "METADATA_HASH": "nUFCAlGdVZY8uF8sjAJx8JDZRMbOJ3B1PTVPC9t13BI=",
+          "METADATA_SIZE": "169081"
         }
       ]
     }
