@@ -1,35 +1,16 @@
 Rom:
-- Implement an option for making navbar gesture handle invisible
-- MD3 theme files app (DocumentsUI)
-- Lindroid: halt vblanks and rendering when app is in background
-- Implement option to change notification shade opacity
-- Fix ARR power regression with a more targeted overscroll effect refresh rate fix
-- Fix circle to search with navbar handle invisible
-- Aperture: rebase and update
-- Lindroid: implement power mode support
-- OmniJaws: use a split view for inline mode, showing all non date and weather slices in a secondary location
-- Gapps: set CredentialManager as default password manager
-- SurfaceFlinger: always show refresh rate in overlay even when idle (removes dashes)
-- SurfaceFlinger: do not vote any refresh rate change on status bar item updates
-- SurfaceFlinger: allow utilizing as low as minimum configured refresh rate for idle
-- SurfaceFlinger: minimize intermediate refresh rate switches
-- Show location indicator for coarse location requests as well as precise
-- Fix status bar burn in protection
-- Fix AOD burn in protection requiring SystemUI restart post boot (Google bug)
+- Aperture: support fixing hdr video colors on oplus devices
+- Misc
 
 Device:
-- Fix playback of media with >2 channel audio over bluetooth
-- Stop reporting severe thermal state when there is none
-- Utilize 10hz as display idle rate
-- Now the first/only rom on a newer oplus device to have thermal mitigations and battery protections:
-   - Tie in gpu, ddr, and additional clusters outside of big+/prime as battery temperature increases to minimize runoff or contribution when we are not the main thermal contributor.
-   - For additional protection, implement skin temperature thermal mitigations (4 levels).
- - Additionally add per component temperature mitigations well lower than the previous thermal die limits.
-- Kernel: efficiency: improve prime cpu avoidance and further pack on low power cores
-- Kernel: efficiency: only precommit frame boost on performance kprofile
-- Kernel: merge 6.1.175
-- Additional efficiency improvements including re-enabling ADFR for static image power consumption improvement
-- Kernel: optimize critical task spawned workqueues (improves camera open performance)
-- Kernel: multitasking improvements with a hybrid vmpressure/psi window low memory killer
-    - Improves responsiveness of kills (also with small boost in high pressure)
-    - Reduces false kills
+- Update blobs from ColorOS / OxygenOS 16.0.8.300
+- Drop Dolby Atmos (Seems to apply audio processing even when turned off, ruining audio quality)
+- Significantly improve our thermal mitigations to use 9 levels with skin sensor and allow cpu cooling devices to be referenced and used:
+    - Minimizes battery heat runoff more effectively
+    - Allows dropping mitigations earlier when trending downward (not contributing as much heat)
+    - This is still the only rom with any thermal protections/mitigations on waffle (or any newer oplus device)
+- Further improve per-cluster thermal mitigations
+- Camera fixes and improvements including:
+   - Fixed high camera service load during camera usage (incl video calls)
+   - Improved lens switch performance
+- Kernel: efficiency improvement
