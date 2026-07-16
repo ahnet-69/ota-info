@@ -1,16 +1,30 @@
 Rom:
-- Aperture: support fixing hdr video colors on oplus devices
-- Misc
+- Lindroid: move to a more efficient/lower latency ASurfaceControl composer, which allows for hw overlay promotion
+  - Will need to update inside rootfs or use new rootfs for a tear-free experience
 
 Device:
-- Update blobs from ColorOS / OxygenOS 16.0.8.300
-- Drop Dolby Atmos (Seems to apply audio processing even when turned off, ruining audio quality)
-- Significantly improve our thermal mitigations to use 9 levels with skin sensor and allow cpu cooling devices to be referenced and used:
-    - Minimizes battery heat runoff more effectively
-    - Allows dropping mitigations earlier when trending downward (not contributing as much heat)
-    - This is still the only rom with any thermal protections/mitigations on waffle (or any newer oplus device)
-- Further improve per-cluster thermal mitigations
-- Camera fixes and improvements including:
-   - Fixed high camera service load during camera usage (incl video calls)
-   - Improved lens switch performance
-- Kernel: efficiency improvement
+- Update common blobs from 16.0.8.300
+- Camera: use stock video opmode in all video cases for improved video processing and output
+- Without losing power consumption improvements, reduce jitter and improve UI performance particularly on balanced (default) and performance kprofiles
+- Add a passthrough charging toggle and qs tile
+- Enable perf mode for OpenDelta — next OTA will install faster
+- Kernel: bring back a proper FIE implementation and fix two power consumption mistakes. Additionally minimize overhead.
+- Kernel: CASS: in full load scenarios, allow using prime sooner if a task can only fit there (+~400 multi-core Geekbench points consistently and hackbench improved).
+- Kernel: disable dcvsh IRQs to stop lmh throttling from competing with our thermal throttling implementation. This regains a usable 3.3ghz prime core which was restricted fw level since around OOS16.
+- Kernel: improve wake from suspend performance.
+- Kernel: drop counter-productive idle packing
+- Kernel: EEVDF fixes
+- Kernel: Improve cold app open performance
+- Kernel: Add warm app launch boosts
+- Kernel: Add in-app transition boosts
+- Kernel: fix a significant power regression introduced after April build
+- Kernel: kprofile improvements to adapt to power regression fix:
+  - Bring back minor 1ms frame precommit boosting on balanced kprofile
+  - Improve performance kprofile frame precommit boosting
+  - Battery kprofile is still no boosting for as good of battery life as possible
+  - All other efficiency improvements implemented since April build (including small task packing) are kept
+- Kernel: fix possible slow out of memory scenario
+- Kernel: improve interactivity and efficiency
+- Kernel: fingerprint improvements
+- Kernel: tweak thermal mitigation curves for more peak performance headroom and improved passively cooled gaming performance
+- Kernel: Add kick boost on binder sync tx if from fg main thread to do small boosts on relayout, inflation, etc (the costliest parts of fragment launches)
