@@ -1,15 +1,15 @@
 {
   "response": [
     {
-      "datetime": 1786096469,
-      "filename": "YAAP-16-HOMEMADE-giuliac-20260807.zip",
+      "datetime": 1788501137,
+      "filename": "YAAP-17-HOMEMADE-giuliac-20260904.zip",
       "payload": [
         {
-          "offset": 4890,
-          "FILE_HASH": "LW4z3klR72jiyOaQl6YI8FxQK008I/wgNnz6Q9vlits=",
-          "FILE_SIZE": "4082427857",
-          "METADATA_HASH": "HEnb0YRxo4DbWdFIxSPc6FHecq2kAWSHlrwz3vU/Rts=",
-          "METADATA_SIZE": "196232"
+          "offset": 4727,
+          "FILE_HASH": "GswE7SlipKMDyBKWZPvEI/+1vIC66TCKUJm8QimJEFM=",
+          "FILE_SIZE": "4125911529",
+          "METADATA_HASH": "OVN2K8lcexo+OT3tZKm2uSqmaT+nuEmz1sI8H1KoPnI=",
+          "METADATA_SIZE": "198542"
         }
       ]
     }
